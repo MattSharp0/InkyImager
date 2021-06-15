@@ -4,6 +4,7 @@ found here: https://shop.pimoroni.com/products/inky-phat?variant=12549254905939.
 It uses the PIL library and converts all images in the provied directory to a new image using a 3 color palette as well as shrinking them to a specified size.
 
 Example:
+
 ![Original image](https://github.com/MattSharp0/InkyImager/blob/main/originals/38.png)
 
 ![Converted image](https://github.com/MattSharp0/InkyImager/blob/main/icons/38.png)
