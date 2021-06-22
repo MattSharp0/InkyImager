@@ -2,26 +2,26 @@ from PIL import Image
 import glob
 import os
 
-# directory of image(s) to convert
-from_path = 'originals/'
+# # directory of image(s) to convert
+# from_path = 'originals/'
 
-# Resulting png size
-size = (100, 100)
+# # Resulting png size
+# size = (100, 100)
 
-# palette for yellow inky display (black base color)
-y_palette = [0, 0, 0,  # Black
-             255, 255, 255,  # White
-             255, 255, 0,  # Yellow
-             255, 255, 255]  # White
+# # palette for yellow inky display (black base color)
+# y_palette = [0, 0, 0,  # Black
+#              255, 255, 255,  # White
+#              255, 255, 0,  # Yellow
+#              255, 255, 255]  # White
 
-# palette for red inky display (black base color)
-r_palette = [0, 0, 0,  # Black
-             255, 255, 255,  # White
-             255, 0, 0,  # Red
-             255, 255, 255]  # White
+# # palette for red inky display (black base color)
+# r_palette = [0, 0, 0,  # Black
+#              255, 255, 255,  # White
+#              255, 0, 0,  # Red
+#              255, 255, 255]  # White
 
-# directory to store image(s)
-to_path = 'icons/'
+# # directory to store image(s)
+# to_path = 'icons/'
 
 
 def inky_image_converter(from_path, size, palette, to_path):
@@ -54,4 +54,4 @@ def inky_image_converter(from_path, size, palette, to_path):
             print(f'Saved {file}.png to {to_path}')
 
 
-inky_image_converter(from_path, size, y_palette, to_path)
+# inky_image_converter(from_path, size, y_palette, to_path)
