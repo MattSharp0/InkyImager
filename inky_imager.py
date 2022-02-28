@@ -3,20 +3,23 @@ import glob
 import os
 
 # # directory of image(s) to convert
-# from_path = 'originals/'
-from_path = 'originalPNGs/'
+from_path = 'originals/'
+# from_path = 'originalPNGs/'
 
 # # directory to store image(s)
-# to_path = 'icons/'
-to_path = 'weather_icons/'
+to_path = 'icons/'
+# to_path = 'weather_icons/'
 
 # # Resulting png size in pixels
-size = (50, 50)
+size = (100, 100)
 
-# # palette for yellow inky display (black base color)
-y_palette = [255, 255, 255,  # Black
-             0, 0, 0,  # White
+# palette for yellow inky display (black base color)
+y_palette = [255, 255, 255,  # White
+             0, 0, 0,  # Black
              255, 255, 0] + [0, ] * 3 * 253  # Yellow
+
+# Yellow base color
+# y_palette = [255, 255, 255, 255, 255, 0, 0, 0, 0]
 
 # # palette for red inky display (black base color)
 # r_palette = [0, 0, 0,  # Black
